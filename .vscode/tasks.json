@@ -1,0 +1,40 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build SpaceShoot",
+            "type": "shell",
+            "command": "C:/mingw64/bin/g++.exe",
+            "args": [
+                "-std=c++17",
+                "-g",
+                "${workspaceFolder}/SpaceShoott.cpp",
+                "${workspaceFolder}/Game.cpp",
+                "${workspaceFolder}/Background.cpp",
+                "${workspaceFolder}/Player.cpp",
+                "${workspaceFolder}/Bullet.cpp",
+                "${workspaceFolder}/Obstacle.cpp",
+                "${workspaceFolder}/Explosion.cpp",
+                "-IC:/SFML-3.0.2/include",
+                "-LC:/SFML-3.0.2/lib",
+                "-lsfml-graphics",
+                "-lsfml-window",
+                "-lsfml-system",
+                "-lsfml-audio",
+                "-o",
+                "${workspaceFolder}/SpaceShoott.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build SpaceShoott.cpp with SFML"
+        }
+    ]
+}

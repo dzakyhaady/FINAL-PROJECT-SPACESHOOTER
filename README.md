@@ -1,4 +1,4 @@
-# Space Shooter 🚀
+# Space Shooter 
 
 Sebuah game horizontal shooter yang dikembangkan dengan **C++17** dan **SFML 3**, menampilkan gameplay yang adiktif, sistem difficulty yang dinamis, dan sistem unlock bullet color berdasarkan achievement.
 
@@ -7,7 +7,7 @@ Sebuah game horizontal shooter yang dikembangkan dengan **C++17** dan **SFML 3**
 
 ---
 
-## 📌 Daftar Isi
+##  Daftar Isi
 
 - [Fitur Utama](#fitur-utama)
 - [Gameplay](#gameplay)
@@ -21,7 +21,7 @@ Sebuah game horizontal shooter yang dikembangkan dengan **C++17** dan **SFML 3**
 
 ---
 
-## 🎮 Fitur Utama
+##  Fitur Utama
 
 ### 1. **Horizontal Shooter Gameplay**
 - Player mengendalikan pesawat di sisi kiri layar
@@ -249,7 +249,7 @@ All bullets available untuk sesi ini
 
 ---
 
-## 🏗️ Setup & Build
+##  Setup & Build
 
 ### Requirements
 
@@ -295,7 +295,7 @@ C:/mingw64/bin/g++.exe -std=c++17 -g `
 
 ---
 
-## 📁 Struktur Project
+##  Struktur Project
 
 ```
 SpaceShoot/
@@ -347,7 +347,7 @@ SpaceShoot/
 
 ---
 
-## ⚙️ Technical Highlights
+##  Technical Highlights
 
 ### 1. **Efficient Memory Management**
 ```cpp
@@ -449,7 +449,7 @@ float randomY = obstacleY(rng);  // Random Y position untuk obstacle
 
 ---
 
-## 📦 Asset & Dependency
+##  Asset & Dependency
 
 ### Required Assets
 
@@ -513,7 +513,7 @@ float randomY = obstacleY(rng);  // Random Y position untuk obstacle
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 Potential improvements untuk versi selanjutnya:
 
@@ -530,32 +530,12 @@ Potential improvements untuk versi selanjutnya:
 
 ---
 
-## 📄 License
+##  Credits
 
-This project is open source. Feel free to use, modify, and distribute as you see fit.
-
----
-
-## 👨‍💻 Credits
-
-**Developed by:** [Your Name]  
+**Developed by:** Dzaky Haady - 5024241076  
 **Engine:** SFML 3.0  
 **Language:** C++17  
 
-### Sound Effects from:
-- Notification sound - Fears To Fathom (indie horror game)
-- Spongebob fail - SpongeBob SquarePants
-- Bone crack - General SFX library
 
----
 
-## 📞 Contact & Support
-
-Have questions or want to discuss the code?
-- **GitHub Issues:** [Link to issues]
-- **Email:** [Your email]
-- **Discord:** [Your Discord]
-
----
-
-**Thank you for playing Space Shooter! Enjoy the game! 🎮✨**
+**Semoga dari game ini sukses**

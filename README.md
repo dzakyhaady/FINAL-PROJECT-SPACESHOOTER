@@ -1,5 +1,8 @@
 # Space Shooter 
-
+---
+#Link Video
+https://youtu.be/OpbOFebxetU
+---
 Sebuah game horizontal shooter yang dikembangkan dengan **C++17** dan **SFML 3**, menampilkan gameplay yang adiktif, sistem difficulty yang dinamis, dan sistem unlock bullet color berdasarkan achievement.
 
 ---
